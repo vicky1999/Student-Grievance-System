@@ -2,20 +2,23 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
-    <script src="login.js"></script>
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Register</title>
+    <script src="scripts/register.js"></script>
   </head>
   <body>
-    <center><b>Welcome</b></center><br/>
-    <center><b>LOGIN</b></center><br/>
+    <center>login<br/></center><hr/>
+    <b class="register">name : <input type="text" id="name"/></b><br/><br/>
+    <b class="register">username : <input type="text" id="username"/></b><br/><br/>
+    <b class="register">password : <input type="password" id="password"/></b><br/><br/>
+    <b class="register">E-Mail : <input type="text" id="email"/></b><br/><br/>
+    <b class="register">Mobile Number : <input type="text" id="phone"/></b><br/><br/>
+    <b class="register">College name : <input type="text" id="college"/></b><br/><br/>
+    <b class="register">Department : <input type="text" id="dept"/></b><br/><br/>
+    <b class="register">University : <input type="text" id="univ"/></b><br/><br/>
 
-    <center><b>username : </b>
-    <input type="text" id="username"/></center><br/>
-
-    <center><b>password : </b>
-    <input type="password" id="password"/></center><br/>
-
-    <center><button id="submit" onclick="onSubmit()">SUBMIT</button></center><br/>
+    <center><button onclick="onSubmit()"><b>SUBMIT</b></button></center>
+    <!--Pending : Mail verification and Phone verification.-->
 
   </body>
 </html>
