@@ -1,0 +1,23 @@
+{
+  "name": "students-grievance-system",
+  "version": "1.0.0",
+  "dependencies": {
+    "express":"^4.13.4",
+    "mysql":"^2.10.2"
+  },
+  "description": "students Grievance System ",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vicky1999/Student-Grievance-System.git"
+  },
+  "author": "vignesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vicky1999/Student-Grievance-System/issues"
+  },
+  "homepage": "https://github.com/vicky1999/Student-Grievance-System#readme"
+}
